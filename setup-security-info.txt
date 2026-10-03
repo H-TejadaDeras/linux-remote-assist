@@ -1,0 +1,4 @@
+Security of this remote assistance setup is done by the following:
+- Tailscale Authentication (primary security mechanism) - Communication only happens via Tailscale through SSH Tunneling; both computers must be in the same Tailnet.
+- VNC Password - The user connecting must know the VNC password of the specific machine.
+- Local Machine Credentials - When logging in, you must have an account in the host computer (can be the same as the user account) in which to sign in to.
