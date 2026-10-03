@@ -1,0 +1,11 @@
+The helper (the person providing help) will need the following:
+Remmina
+Tailscale
+
+Note: The helper client must be in the same tailnet to be able to connect to the host machine.
+
+Remmina Configuration:
+Protocol: Remmina VNC Protocol
+Server: localhost:5900
+SSH Tunner: [tailnet address]:22
+Authentication Type: Password
